@@ -18,6 +18,3 @@ The Dubsado submission handler looks for Dubsado's native `.submit-form-button` 
 
 The service and consultation links in the results section still contain placeholder URLs and need to be replaced before deployment.
 
-## Portfolio note
-
-Remove or replace client-specific assets and integration details as appropriate before publishing this project publicly.
