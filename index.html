@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A preliminary JEDI readiness check from All Things Equitable.">
+  <title>JEDI Readiness Assessment | All Things Equitable</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="ate-jedi-assessment">
+  
+
+  <div class="ate-card">
+
+    <!-- WELCOME SCREEN -->
+    <section id="ate-welcome">
+      <div class="ate-logo-container">
+  <img src="https://assets.dubsado.com/6018e1748414bc41c08a9112/6af66753ceb2aeee943d6fc9_AllThingsEquitable-Logo-Primary-RGB.png"
+       alt="All Things Equitable logo">
+</div>
+      <h2>Is Your Organization Ready for the New B Corp JEDI Standards?</h2>
+
+      <p>
+        The new B Corp JEDI standards ask organizations to demonstrate
+        how they are advancing justice, equity, diversity and inclusion
+        through meaningful actions.
+      </p>
+
+      <p>But how prepared is your organization?</p>
+
+      <p>
+        Take our free, three-minute readiness check to identify
+        potential strengths, gaps and opportunities for improvement.
+      </p>
+
+      <p>You'll receive a preliminary summary and learn how
+        All Things Equitable can help.</p>
+
+      <button type="button" class="ate-button" data-action="start">
+        Start My Readiness Check
+      </button>
+    </section>
+
+    <!-- QUESTIONNAIRE SCREEN -->
+    <section id="ate-questions" class="ate-hidden">
+      <div class="ate-eyebrow">JEDI Readiness Check</div>
+
+      <div class="ate-muted" id="ate-step-label"></div>
+
+      <div class="ate-progress">
+        <div class="ate-progress-fill" id="ate-progress-fill"></div>
+      </div>
+
+      <div id="ate-question-content"></div>
+
+      <div class="ate-navigation">
+        <button type="button"
+          class="ate-button ate-secondary"
+          data-action="back">
+          Back
+        </button>
+
+        <button type="button"
+          class="ate-button"
+          data-action="next">
+          Continue
+        </button>
+      </div>
+    </section>
+
+    <!-- RESULTS SCREEN -->
+    <section id="ate-results" class="ate-hidden">
+      <div class="ate-eyebrow">Your Preliminary Results</div>
+
+      <h2 id="ate-result-title"></h2>
+
+      <p class="ate-muted">
+        Your responses provide an introductory snapshot of your
+        organization's current JEDI practices.
+      </p>
+
+      <div class="ate-result-card">
+        <div class="ate-muted">Internal assessment score</div>
+        <div class="ate-score" id="ate-score"></div>
+        <p id="ate-result-message"></p>
+      </div>
+
+      <h3>Recommended Areas for Further Review</h3>
+
+      <p class="ate-muted">
+        Based on your answers, these are potential opportunities
+        for additional support.
+      </p>
+
+      <div id="ate-recommendations"></div>
+
+      <div class="ate-disclaimer">
+        <strong>Important Disclaimer</strong>
+        <p>
+          This questionnaire provides preliminary guidance only.
+          It is not an official B Lab assessment and does not
+          determine certification readiness or compliance.
+          Requirements vary by organization and must be confirmed
+          against the applicable B Lab standards.
+        </p>
+      </div>
+
+      <button type="button"
+        class="ate-button"
+        data-action="restart">
+        Retake Assessment
+      </button>
+      
+      <div class="ate-cta">
+  <h3>Ready to Take the Next Step?</h3>
+
+  <p>
+    Understanding where you stand is the beginning.
+    Let All Things Equitable help you turn your
+    JEDI priorities into measurable action.
+  </p>
+
+  <div class="ate-cta-buttons">
+
+    <a href="PASTE_ATE_SERVICES_URL"
+       class="ate-button">
+      Explore Our B Corp JEDI Consulting Services
+    </a>
+
+    <a href="PASTE_ATE_CONSULTATION_URL"
+       class="ate-button">
+      Book a JEDI Readiness Consultation
+    </a>
+
+    <button type="button"
+       class="ate-button"
+       data-action="email-results">
+      Email My Results
+    </button>
+
+<!-- ATE Custom Assessment Submission Button -->
+
+<div class="ate-submit-container">
+  <button
+    type="button"
+    id="ate-submit-assessment"
+    class="ate-submit-button"
+  >
+    Submit My Assessment
+  </button>
+</div>
+
+
+  </div>
+      
+    </section>
+
+  </div>
+    
+    
+
+</div>
+
+    
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
